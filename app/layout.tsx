@@ -71,7 +71,7 @@ const JSON_LD = {
       "@id": `${SITE_URL}/#organization`,
       name: "Cashub",
       url: SITE_URL,
-      logo: `${SITE_URL}/icon.svg`,
+      logo: `${SITE_URL}/icon0.svg`,
       sameAs: [
         "https://chromewebstore.google.com/detail/wtyczka-cashback/ilafemiekdndmopekgefoomphnkokhdh",
       ],
