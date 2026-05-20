@@ -118,17 +118,24 @@ export default function IntegrationHero() {
 
         <div className="relative z-10 mt-8 inline-block">
           <Button
+            asChild
             size="lg"
             className="group text-white font-medium hover:brightness-95"
             style={{ backgroundColor: ACCENT_GREEN }}
           >
-            Dodaj wtyczkę - za darmo
-            <ArrowRight
-              className="-me-1 ms-2 opacity-80 transition-transform group-hover:translate-x-0.5"
-              size={18}
-              strokeWidth={2}
-              aria-hidden="true"
-            />
+            <a
+              href="https://chromewebstore.google.com/detail/wtyczka-cashback/ilafemiekdndmopekgefoomphnkokhdh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dodaj wtyczkę - za darmo
+              <ArrowRight
+                className="-me-1 ms-2 opacity-80 transition-transform group-hover:translate-x-0.5"
+                size={18}
+                strokeWidth={2}
+                aria-hidden="true"
+              />
+            </a>
           </Button>
         </div>
 
