@@ -51,6 +51,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "8CaQZ9RQMN6iq1scCgQiiSpPcavykcK3BneDJA449TI",
+  },
   category: "shopping",
 };
 
